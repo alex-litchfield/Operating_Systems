@@ -1,0 +1,32 @@
+bash$ ./a.out 3 3
+THREAD 1000: Solving Sonny's knight's tour problem for a 3x3 board
+THREAD 1000: 2 moves possible after move #1; creating threads...
+THREAD 1001: Dead end after move #8
+THREAD 1002: Dead end after move #8
+THREAD 1000: Thread [1001] joined (returned 8)
+THREAD 1000: Thread [1002] joined (returned 8)
+THREAD 1000: Best solution(s) found visit 8 squares (out of 9)
+THREAD 1000: Dead end boards:
+THREAD 1000: > SSS
+THREAD 1000: S.S
+THREAD 1000: SSS
+THREAD 1000: > SSS
+THREAD 1000: S.S
+THREAD 1000: SSS
+
+GITHUB OUTPUT:
+
+THREAD 139727894447936: Solving Sonny's knight's tour problem for a 3x3 board
+THREAD 139727894447936: 2 moves possible after move #1; creating threads...
+THREAD 139727894443776: Dead end after move #8
+THREAD 139727894447936: Thread [139727894443776] joined (returned 8)
+THREAD 139727894443776: Dead end after move #8
+THREAD 139727894447936: Thread [139727894443776] joined (returned 8)
+THREAD 139727894447936: Best solution(s) found visit 8 squares (out of 9)
+THREAD 139727894447936: Dead end boards:
+THREAD 139727894447936: > SSS
+THREAD 139727894447936:   S.S
+THREAD 139727894447936:   SSS
+THREAD 139727894447936: > SSS
+THREAD 139727894447936:   S.S
+THREAD 139727894447936:   SSS
